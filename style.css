@@ -10,12 +10,23 @@ p{
 }
 nav{
 	position: relative;
-	margin: 50px auto 0;
+	margin: 10px auto 0;
 	width: 590px;
 	height: 50px;
 	background: #34495e;
 	border-radius: 8px;
 	font-size: 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0);
+}
+button{
+	position: relative;
+	margin: 0px 910px;
+	width: 150px;
+	height: 50px;
+	color: white;
+	background: #1abc9c;
+	border-radius: 8px;
+	font-size: 15px;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
 }
 nav a{
@@ -38,7 +49,7 @@ nav .animation{
 	z-index: 0;
 	background: #1abc9c;
 	border-radius: 8px;
-	transition: all .5s ease 0s;
+	transition: all 0s ease 0s;
 }
 nav a:nth-child(1){
 	width: 100px;
@@ -80,7 +91,7 @@ nav a:nth-child(5):hover~.animation{
 
   .select {
     position: relative;
-    margin: 25px 450px;
+    margin: 10px 450px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     max-width: 300px;
